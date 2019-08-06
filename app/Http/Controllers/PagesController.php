@@ -12,4 +12,13 @@ class PagesController extends Controller
     public function statistikKeuangan(){
         return view('pages.statistikKeuangan');
     }
+    public function timelineKeuangan(){
+      return view('pages.timelineKeuangan');
+    }
+    public function statistikBarang(){
+        return view('pages.statistikBarang');
+    }
+    public function databaseBarang(){
+        return view('pages.databaseBarang');
+    }
 }

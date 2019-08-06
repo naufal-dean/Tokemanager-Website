@@ -12,4 +12,7 @@
 */
 
 Route::get('/penjualan', 'PagesController@penjualan');
-Route::get('/statistikKeuangan', 'PagesController@statistikKeuangan');
+Route::get('/statistik-keuangan', 'PagesController@statistikKeuangan');
+Route::get('/timeline-keuangan', 'PagesController@timelineKeuangan');
+Route::get('/statistik-barang', 'PagesController@statistikBarang');
+Route::get('/database-barang', 'PagesController@databaseBarang');

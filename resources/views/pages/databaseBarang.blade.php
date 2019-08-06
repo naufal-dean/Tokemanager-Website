@@ -8,8 +8,14 @@
 
           <div class="navseparator"></div>
 
-          <h3 class="title">Statistik Keuangan</h3>
+          <h3 class="title">Database Barang</h3>
         </nav>
-      </div>
-    </div>
+
+    <script>
+      $(document).ready(function(){
+        $('#sidebarCollapse').on('click',function(){
+          $('#sidebar').toggleClass('active');
+        });
+      });
+    </script>
 @endsection
