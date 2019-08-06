@@ -12,3 +12,4 @@
 */
 
 Route::get('/penjualan', 'PagesController@penjualan');
+Route::get('/statistikKeuangan', 'PagesController@statistikKeuangan');

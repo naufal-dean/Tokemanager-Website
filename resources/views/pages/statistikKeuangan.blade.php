@@ -8,14 +8,8 @@
 
           <div class="navseparator"></div>
 
-          <h3 class="title">Penjualan</h3>
+          <h3 class="title">Timeline Keuangan</h3>
         </nav>
- 
-    <script>
-      $(document).ready(function(){
-        $('#sidebarCollapse').on('click',function(){
-          $('#sidebar').toggleClass('active');
-        });
-      });
-    </script>
+      </div>
+    </div>
 @endsection

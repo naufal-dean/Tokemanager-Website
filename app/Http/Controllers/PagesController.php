@@ -9,4 +9,7 @@ class PagesController extends Controller
     public function penjualan(){
         return view('pages.penjualan');
     }
+    public function statistikKeuangan(){
+        return view('pages.statistikKeuangan');
+    }
 }
