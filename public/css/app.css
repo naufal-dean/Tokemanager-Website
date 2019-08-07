@@ -10663,14 +10663,29 @@ a:focus {
   transition: all 250ms;
 }
 
+/* Wrapper */
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  align-items: stretch;
+  position: relative;
+}
+
 /* Content */
 
 .content {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
   padding: 0px;
-  min-height: 100vh;
   transition: all 250ms;
 }
+
+/* Navbar */
 
 .navbar {
   padding: 15px 10px;
@@ -10692,12 +10707,11 @@ a:focus {
   flex: 1 1 auto;
 }
 
-.wrapper {
-  display: flex;
-  width: 100%;
+/* Content  */
+
+.content-box {
   height: 100%;
-  align-items: stretch;
-  position: absolute;
+  overflow-y: auto;
 }
 
 /* Sidebar */

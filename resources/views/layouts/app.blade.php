@@ -20,7 +20,11 @@
       @include('inc.sidebar')
       <!-- Content -->
       <div class="content">
-        @yield('content')
+        @include('inc.navbar', ['title' => $title])
+        <div class="content-box">
+          @yield('content')
+        </div>
+        @include('inc.footer')
       </div>
     </div>
 
