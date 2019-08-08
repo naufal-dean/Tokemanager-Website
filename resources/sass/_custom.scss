@@ -72,31 +72,31 @@ a:focus{
     background: #c587ae;
     color: white;
     transition: all 250ms;
-}
-#sidebar.active{
-    margin-left: -250px;
-}
-#sidebar .sidebar-header{
-    padding: 20px;
-    background: #c587ae;
-}
-#sidebar ul.components{
-    padding: 20px 0px;
-    border-bottom: 1p solid black;
-}
-#sidebar ul p{
-    padding: 10px;
-    font-size: 1.1em;
-    display: block;
-}
-#sidebar ul li a{
-	padding: 10px;
-	font-size: 1.1em;
-	display: block;
-}
-#sidebar ul li a:hover {
-    background: white;
-    color: #8c759f;
+    // Header
+    .sidebar-header{
+      padding: 20px;
+      background: #c587ae;
+    }
+    // Active
+    &.active{
+        margin-left: -250px;
+    }
+    // List
+    ul{
+        &.components{
+            padding: 20px 0px;
+            border-bottom: 1p solid black;
+        }
+        li a{
+          	padding: 10px;
+          	font-size: 1.1em;
+          	display: block;
+            &:hover {
+                background: white;
+                color: #8c759f;
+            }
+        }
+    }
 }
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
@@ -108,6 +108,17 @@ a[data-toggle="collapse"] {
 #sidebar ul li.active>a:hover{
     background: white;
     color: #8c759f;
+}
+#sidebar ul li ul li a{
+    background: #d3add1;
+    color: white;
+    &.active{
+        background: #8c759f;
+        &:hover{
+            background: white;
+            color: #8c759f;
+        }
+    }
 }
 .dropdown-toggle::after {
     display: block;

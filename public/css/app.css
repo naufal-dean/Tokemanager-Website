@@ -10736,24 +10736,18 @@ a:focus {
   transition: all 250ms;
 }
 
-#sidebar.active {
-  margin-left: -250px;
-}
-
 #sidebar .sidebar-header {
   padding: 20px;
   background: #c587ae;
 }
 
+#sidebar.active {
+  margin-left: -250px;
+}
+
 #sidebar ul.components {
   padding: 20px 0px;
   border-bottom: 1p solid black;
-}
-
-#sidebar ul p {
-  padding: 10px;
-  font-size: 1.1em;
-  display: block;
 }
 
 #sidebar ul li a {
@@ -10777,6 +10771,20 @@ a[data-toggle=collapse] {
 }
 
 #sidebar ul li.active > a:hover {
+  background: white;
+  color: #8c759f;
+}
+
+#sidebar ul li ul li a {
+  background: #d3add1;
+  color: white;
+}
+
+#sidebar ul li ul li a.active {
+  background: #8c759f;
+}
+
+#sidebar ul li ul li a.active:hover {
   background: white;
   color: #8c759f;
 }

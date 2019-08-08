@@ -4,30 +4,30 @@
   </div>
 
   <ul class="list-unstyled components">
-    <li class="active">
+    <li class="{{ substr((Request::path()), 0, 9) === 'penjualan' ? 'active' : '' }}">
       <a href="{{url('/penjualan')}}">Penjualan</a>
     </li>
 
-    <li>
+    <li class="{{ ((substr((Request::path()), 0, 18) === 'statistik-keuangan') || (substr((Request::path()), 0, 17) === 'timeline-keuangan')) ? 'active' : '' }}">
       <a href="#keuanganSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Keuangan</a>
       <ul class="collapse list-unstyled" id="keuanganSubmenu">
         <li>
-          <a href="{{url('/statistik-keuangan')}}">Statistik</a>
+          <a href="{{url('/statistik-keuangan')}}" class="{{ (substr((Request::path()), 0, 18) === 'statistik-keuangan') ? 'active' : '' }}">Statistik</a>
         </li>
         <li>
-          <a href="{{url('/timeline-keuangan')}}">Timeline</a>
+          <a href="{{url('/timeline-keuangan')}}" class="{{ (substr((Request::path()), 0, 17) === 'timeline-keuangan') ? 'active' : '' }}">Timeline</a>
         </li>
       </ul>
     </li>
 
-    <li>
+    <li class="{{ ((substr((Request::path()), 0, 16) === 'statistik-barang') || (substr((Request::path()), 0, 5) === 'items')) ? 'active' : '' }}">
       <a href="#barangSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Barang</a>
       <ul class="collapse list-unstyled" id="barangSubmenu">
         <li>
-          <a href="{{url('/statistik-barang')}}">Statistik</a>
+          <a href="{{url('/statistik-barang')}}" class="{{ (substr((Request::path()), 0, 16) === 'statistik-barang') ? 'active' : '' }}">Statistik</a>
         </li>
         <li>
-          <a href="{{url('/items')}}">Database</a>
+          <a href="{{url('/items')}}" class="{{ (substr((Request::path()), 0, 5) === 'items') ? 'active' : '' }}">Database</a>
         </li>
       </ul>
     </li>
