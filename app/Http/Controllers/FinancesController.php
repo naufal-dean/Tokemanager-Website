@@ -16,8 +16,8 @@ class FinancesController extends Controller
      */
     public function index()
     {
-        $finances = Finance::orderBy('created_at', 'desc')->paginate(5);
-        return view('finances.index')->with('finances', $finances);
+        $finance = Finance::orderBy('created_at', 'desc')->first();
+        return view('finances.index')->with('finance', $finance);
     }
 
     /**

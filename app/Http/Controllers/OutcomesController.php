@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Outcome;
 
 class OutcomesController extends Controller
 {
@@ -13,7 +14,8 @@ class OutcomesController extends Controller
      */
     public function index()
     {
-        //
+      $outcomes = Outcome::orderBy('created_at', 'desc')->paginate(5);
+      return view('outcomes.index')->with('outcomes', $outcomes);
     }
 
     /**

@@ -8,14 +8,29 @@
       <a href="{{url('/penjualan')}}">Penjualan</a>
     </li>
 
-    <li class="{{ ((substr((Request::path()), 0, 18) === 'statistik-keuangan') || (substr((Request::path()), 0, 17) === 'timeline-keuangan')) ? 'active' : '' }}">
+    <li class="{{ (
+      (substr((Request::path()), 0, 7) === 'incomes') ||
+      (substr((Request::path()), 0, 8) === 'outcomes') ||
+      (substr((Request::path()), 0, 8) === 'finances') ||
+      (substr((Request::path()), 0, 18) === 'statistik-keuangan'))
+      ? 'active' : '' }}">
       <a href="#keuanganSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Keuangan</a>
       <ul class="collapse list-unstyled" id="keuanganSubmenu">
         <li>
-          <a href="{{url('/statistik-keuangan')}}" class="{{ (substr((Request::path()), 0, 18) === 'statistik-keuangan') ? 'active' : '' }}">Statistik</a>
+          <a href="{{url('/statistik-keuangan')}}"
+            class="{{ (substr((Request::path()), 0, 18) === 'statistik-keuangan') ? 'active' : '' }}">
+            Statistik
+          </a>
         </li>
         <li>
-          <a href="{{url('/timeline-keuangan')}}" class="{{ (substr((Request::path()), 0, 17) === 'timeline-keuangan') ? 'active' : '' }}">Timeline</a>
+          <a href="{{url('/incomes')}}"
+            class="{{ (
+              (substr((Request::path()), 0, 7) === 'incomes') ||
+              (substr((Request::path()), 0, 8) === 'outcomes') ||
+              (substr((Request::path()), 0, 8) === 'finances'))
+              ? 'active' : '' }}">
+            Timeline
+          </a>
         </li>
       </ul>
     </li>

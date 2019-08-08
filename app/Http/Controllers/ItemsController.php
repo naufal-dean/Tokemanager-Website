@@ -98,8 +98,8 @@ class ItemsController extends Controller
       $item = Item::find($id);
       $item->item_name = $request->input('item_name');
       $item->desc = $request->input('desc');
-      $item->stock = $request->input('stock');
       $item->price = $request->input('price');
+      $item->stock = $request->input('stock');
       $item->save();
 
       return redirect('/items/' . $id)->with('success', 'Item berhasil diperbarui.');

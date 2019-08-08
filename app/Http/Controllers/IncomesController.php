@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Income;
 
 class IncomesController extends Controller
 {
@@ -13,7 +14,8 @@ class IncomesController extends Controller
      */
     public function index()
     {
-        //
+        $incomes = Income::orderBy('created_at', 'desc')->paginate(5);
+        return view('incomes.index')->with('incomes', $incomes);
     }
 
     /**
