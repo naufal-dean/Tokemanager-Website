@@ -10,6 +10,7 @@
         <h3><a href="{{url('/items/' . $item->id)}}">{{$item->item_name}}</a></h3>
       </div>
     @endforeach
+    {{$items->links()}}
   @else
     <p>No items found</p>
   @endif

@@ -20,7 +20,10 @@
       {{Form::label('stock', 'Jumlah')}}
       {{Form::text('stock', '', ['class' => 'form-control', 'placeholder' => 'Jumlah'])}}
     </div>
-    {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
+    <div>
+      {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
+      <a href="{{url('/items')}}" class="btn btn-primary float-right text-white">Back</a>
+    </div>
 
   {!! Form::close() !!}
 </main>
