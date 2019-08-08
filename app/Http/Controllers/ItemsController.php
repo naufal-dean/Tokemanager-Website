@@ -74,7 +74,8 @@ class ItemsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $item = Item::find($id);
+        return view('items.edit')->with('item', $item);
     }
 
     /**
@@ -86,7 +87,22 @@ class ItemsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+      $this->validate($request, [
+          'item_name' => 'required',
+          'desc' => 'required',
+          'price' => 'required',
+          'stock' => 'required'
+      ]);
+
+      // Update Post
+      $item = Item::find($id);
+      $item->item_name = $request->input('item_name');
+      $item->desc = $request->input('desc');
+      $item->stock = $request->input('stock');
+      $item->price = $request->input('price');
+      $item->save();
+
+      return redirect('/items/' . $id)->with('success', 'Item berhasil diperbarui.');
     }
 
     /**
