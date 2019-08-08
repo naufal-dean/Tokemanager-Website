@@ -24,6 +24,11 @@
   <div class="content-box-separator"></div>
 
   <div>
+    {!!Form::open(['action' => ['ItemsController@destroy', $item->id], 'method' => 'POST', 'class' => 'pull-left'])!!}
+      {{Form::hidden('_method', 'DELETE')}}
+      {{Form::submit('Hapus', ['class' => 'btn btn-danger mr-2'])}}
+    {!!Form::close()!!}
+
     <a href="{{url('/items/' . $item->id . '/edit')}}" class="btn btn-primary float-left text-white">Edit</a>
     <a href="{{url('/items')}}" class="btn btn-primary float-right text-white">Back</a>
   </div>

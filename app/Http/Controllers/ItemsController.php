@@ -14,7 +14,7 @@ class ItemsController extends Controller
      */
     public function index()
     {
-        $items = Item::orderBy('item_name', 'desc')->paginate(5);
+        $items = Item::orderBy('item_name', 'asc')->paginate(5);
         return view('items.index')->with('items', $items);
     }
 
@@ -113,6 +113,8 @@ class ItemsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $item = Item::find($id);
+        $item->delete();
+        return redirect('/items')->with('success', 'Item berhasil dihapus.');
     }
 }
