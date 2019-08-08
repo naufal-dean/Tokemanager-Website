@@ -25,7 +25,7 @@ class ItemsController extends Controller
      */
     public function create()
     {
-        //
+        return view('items.create');
     }
 
     /**
@@ -36,7 +36,22 @@ class ItemsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'item_name' => 'required',
+            'desc' => 'required',
+            'price' => 'required',
+            'stock' => 'required'
+        ]);
+
+        // Create Post
+        $item = new Item;
+        $item->item_name = $request->input('item_name');
+        $item->desc = $request->input('desc');
+        $item->stock = $request->input('stock');
+        $item->price = $request->input('price');
+        $item->save();
+
+        return redirect('/items')->with('success', 'Item berhasil ditambahkan.');
     }
 
     /**
@@ -47,7 +62,8 @@ class ItemsController extends Controller
      */
     public function show($id)
     {
-        //
+        $item = Item::find($id);
+        return view('items.show')->with('item', $item);
     }
 
     /**

@@ -13,6 +13,9 @@ a:focus{
     text-decoration: none;
     transition: all 250ms;
 }
+.sublink{
+    color: #8c759f;
+}
 /* Wrapper */
 .wrapper{
     display: flex;
@@ -53,7 +56,11 @@ a:focus{
 /* Content  */
 .content-box{
     height: 100%;
+    padding-bottom: 40px;
     overflow-y: auto;
+}
+.content-box-separator{
+    height: 40px;
 }
 /* Sidebar */
 #sidebar{

@@ -5,17 +5,17 @@
 
   <ul class="list-unstyled components">
     <li class="active">
-      <a href="{{asset('/penjualan')}}">Penjualan</a>
+      <a href="{{url('/penjualan')}}">Penjualan</a>
     </li>
 
     <li>
       <a href="#keuanganSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Keuangan</a>
       <ul class="collapse list-unstyled" id="keuanganSubmenu">
         <li>
-          <a href="{{asset('/statistik-keuangan')}}">Statistik</a>
+          <a href="{{url('/statistik-keuangan')}}">Statistik</a>
         </li>
         <li>
-          <a href="{{asset('/timeline-keuangan')}}">Timeline</a>
+          <a href="{{url('/timeline-keuangan')}}">Timeline</a>
         </li>
       </ul>
     </li>
@@ -24,10 +24,10 @@
       <a href="#barangSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Barang</a>
       <ul class="collapse list-unstyled" id="barangSubmenu">
         <li>
-          <a href="{{asset('/statistik-barang')}}">Statistik</a>
+          <a href="{{url('/statistik-barang')}}">Statistik</a>
         </li>
         <li>
-          <a href="{{asset('/database-barang')}}">Database</a>
+          <a href="{{url('/items')}}">Database</a>
         </li>
       </ul>
     </li>

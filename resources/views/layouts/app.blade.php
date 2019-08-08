@@ -21,9 +21,11 @@
       <!-- Content -->
       <div class="content">
         @include('inc.navbar', ['title' => $title])
+        @include('inc.messages')
         <div class="content-box">
           @yield('content')
         </div>
+        <div class="content-box-separator"></div>
         @include('inc.footer')
       </div>
     </div>

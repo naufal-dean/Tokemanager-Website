@@ -17,6 +17,7 @@ class CreateItemsTable extends Migration
             $table->bigIncrements('id');
             $table->string('item_name');
             $table->mediumText('desc');
+            $table->integer('price');
             $table->integer('stock');
             $table->timestamps();
         });
