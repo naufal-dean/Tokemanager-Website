@@ -16,3 +16,10 @@ Route::get('/statistik-keuangan', 'PagesController@statistikKeuangan');
 Route::get('/timeline-keuangan', 'PagesController@timelineKeuangan');
 Route::get('/statistik-barang', 'PagesController@statistikBarang');
 Route::get('/database-barang', 'PagesController@databaseBarang');
+
+Route::resource('/finances','FinancesController');
+Route::resource('/incomes','IncomesController');
+Route::resource('/outcomes','OutcomesController');
+Route::resource('/items','ItemsController');
+Route::resource('/inflows','InflowsController');
+Route::resource('/outflows','OutflowsController');
