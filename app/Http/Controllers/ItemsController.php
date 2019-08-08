@@ -101,7 +101,7 @@ class ItemsController extends Controller
       $item->stock = $request->input('stock');
       $item->price = $request->input('price');
       $item->save();
-
+      
       return redirect('/items/' . $id)->with('success', 'Item berhasil diperbarui.');
     }
 

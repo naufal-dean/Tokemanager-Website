@@ -16,8 +16,8 @@ class FinancesController extends Controller
      */
     public function index()
     {
-        $finance = Finance::orderBy('created_at', 'desc')->paginate(5);
-        return view('finances.index')->with('finances', $finance);
+        $finances = Finance::orderBy('created_at', 'desc')->paginate(5);
+        return view('finances.index')->with('finances', $finances);
     }
 
     /**
@@ -51,7 +51,7 @@ class FinancesController extends Controller
         }else{
             return redirect('/outcomes/create')->with('success', 'data keuangan telah diupdate.');
         }
-        
+
     }
     /**
      * Display the specified resource.
@@ -82,7 +82,7 @@ class FinancesController extends Controller
         $finance->save();
         return view('finances.edit')->with('finance', $finance);
     }
-    
+
 
     /**
      * Update the specified resource in storage.
