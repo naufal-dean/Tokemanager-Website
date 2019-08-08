@@ -5,6 +5,7 @@
   <h1 class="mt-5">Tambah Barang</h1>
 
   {!! Form::open(['action' => 'ItemsController@store', 'method' => 'POST']) !!}
+
     <div class="form-group">
       {{Form::label('item_name', 'Nama Item')}}
       {{Form::text('item_name', '', ['class' => 'form-control', 'placeholder' => 'Nama'])}}
