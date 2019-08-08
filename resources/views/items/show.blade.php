@@ -23,6 +23,9 @@
 
   <div class="content-box-separator"></div>
 
-  <a href="{{url('/items')}}" class="btn btn-primary float-right text-white">Back</a>
+  <div>
+    <a href="{{url('/items/' . $item->id . '/edit')}}" class="btn btn-primary float-left text-white">Edit</a>
+    <a href="{{url('/items')}}" class="btn btn-primary float-right text-white">Back</a>
+  </div>
 </main>
 @endsection
