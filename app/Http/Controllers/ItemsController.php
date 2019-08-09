@@ -106,6 +106,57 @@ class ItemsController extends Controller
     }
 
     /**
+     * List item.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function itemsList()
+    {
+        $items = Item::orderBy('item_name', 'asc')->paginate(5);
+        return view('items.indexsupply')->with('items', $items);
+    }
+
+    /**
+     * Redirect to supply.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function redirectToSupply($id)
+    {
+        $item = Item::find($id);
+        return view('items.supply')->with('item', $item);
+    }
+
+    /**
+     * Supply the item.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function supply(Request $request, $id)
+    {
+      $this->validate($request, [
+          'item_name' => 'required',
+          'desc' => 'required',
+          'price' => 'required',
+          'supply' => 'required'
+      ]);
+
+      // Update Post
+      $item = Item::find($id);
+      $item->item_name = $request->input('item_name');
+      $item->desc = $request->input('desc');
+      $item->price = $request->input('price');
+      $item->stock = $item->stock + $request->input('supply');
+      $item->save();
+
+      return redirect('/suplai-barang')->with('success', 'Item berhasil disuplai.');
+    }
+
+    /**
      * Remove the specified resource from storage.
      *
      * @param  int  $id
