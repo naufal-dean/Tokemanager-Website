@@ -14,4 +14,6 @@
   <div class="form-group col">
     {{Form::label('subtotal', 'Subtotal')}}
   </div>
+  <div class="form-group col">
+  </div>
 </div>

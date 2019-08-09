@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Income extends Model
 {
+    public $fillable = ['item_id','invoice_id','finance_id','qty','transaction'];
+    
     public function item(){
         return $this->belongsTo('App\Item');
     }
