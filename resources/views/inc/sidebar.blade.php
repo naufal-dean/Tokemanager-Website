@@ -54,7 +54,7 @@
 
   <ul class="list-unstyled CTAs">
     <li>
-      <a href="#">About</a>
+      <a href="{{url('/Tokema')}}" class="{{ (substr((Request::path()), 0, 5) === 'Tokema') ? 'active' : '' }}">About</a>
     </li>
 
     <li>
