@@ -1,3 +1,4 @@
+![logo](https://raw.githubusercontent.com/naufal-dean/Tugas-SPARTA-2-VS-10/master/public/images/logo.png)
 # Tokemanager
 
 Tokemanager adalah sebuah software pengelolaan toko berbasis web. Tokemanager....
@@ -74,21 +75,22 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Alexandra Angeline** - *Initial work* - [alexandrangeline](https://github.com/alexandrangeline)
 * **Syarifuddin Fakhri A. H.** - *Initial work* - []()
-* **Difa Habiba Rahman** - *Initial work* - []()
+* **Difa Habiba Rahman** - *Initial work* - [difahrahman](https://github.com/difahrahman)
 * **Ignatius David Partogi** - *Initial work* - []()
-* **Felicia Gillian Tekad Tuerah** - *Initial work* - []()
-* **Naufal Dean Anugrah** - *Initial work* - []()
-* **Daffa Pratama Putra** - *Initial work* - []()
+* **Felicia Gillian Tekad Tuerah** - *Initial work* - [gilliantuerah](https://github.com/gilliantuerah)
+* **Naufal Dean Anugrah** - *Initial work* - [naufal-dean](https://github.com/naufal-dean)
+* **Daffa Pratama Putra** - *Initial work* - [daffa1pratama](https://github.com/daffa1pratama)
+* **Muhamad Hudan Widzamil** - *Initial work* - [hudanwidzamil](https://github.com/hudanwidzamil)
 * **Adrian Timotheus Salim** -
 * **Hafshy Yazid Albisthami** -
-* **Ricky Fernando** -
+* **Ricky Fernando** - [rickymen](https://github.com/rickymen)
 * **Jones Napoleon A.** -
 * **Vincent Tanjaya** -
-* **Rehan Adi Satrya** -
+* **Rehan Adi Satrya** - [rehanadi30](https://github.com/rehanadi30)
 * **Widad Istiqomah** -
 * **Hizbulloh Ash-Shidiqy** -
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) who participated in this project.
 
 ## License
 
