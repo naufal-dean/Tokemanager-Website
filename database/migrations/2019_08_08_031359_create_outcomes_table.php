@@ -16,6 +16,7 @@ class CreateOutcomesTable extends Migration
         Schema::create('outcomes', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('item_id');
+            $table->integer('finance_id');
             $table->integer('qty');
             $table->integer('transaction');
             $table->timestamps();

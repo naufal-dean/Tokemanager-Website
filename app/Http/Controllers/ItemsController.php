@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Item;
+use App\Outcome;
+use App\Finance;
 
 class ItemsController extends Controller
 {
@@ -141,17 +143,35 @@ class ItemsController extends Controller
       $this->validate($request, [
           'item_name' => 'required',
           'desc' => 'required',
-          'price' => 'required',
+          'buy_price' => 'required',
           'supply' => 'required'
       ]);
 
-      // Update Post
+      // Update Item
       $item = Item::find($id);
       $item->item_name = $request->input('item_name');
       $item->desc = $request->input('desc');
-      $item->price = $request->input('price');
+      $item->price = $item->price;
       $item->stock = $item->stock + $request->input('supply');
       $item->save();
+
+      // Create Outcome
+      $outcome = new Outcome;
+      $outcome->item_id = $id;
+      $outcome->finance_id = 1;
+      $outcome->qty = $request->input('supply');
+      $outcome->transaction = $request->input('supply') * $item->desc = $request->input('buy_price');;
+      $outcome->save();
+
+      // Create Finance
+      $oldFinance = Finance::orderBy('created_at', 'desc')->first();
+      $finance = new Finance;
+      if ($oldFinance) {
+        $finance->total = $oldFinance->total - $outcome->transaction;
+      } else {
+        $finance->total = 0 - $outcome->transaction;
+      }
+      $finance->save();
 
       return redirect('/suplai-barang')->with('success', 'Item berhasil disuplai.');
     }

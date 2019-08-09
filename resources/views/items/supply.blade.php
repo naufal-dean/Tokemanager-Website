@@ -14,8 +14,8 @@
       {{Form::text('desc', $item->desc, ['class' => 'form-control', 'placeholder' => 'Deskripsi'])}}
     </div>
     <div class="form-group">
-      {{Form::label('price', 'Harga')}}
-      {{Form::text('price', $item->price, ['class' => 'form-control', 'placeholder' => 'Harga'])}}
+      {{Form::label('buy_price', 'Harga Beli')}}
+      {{Form::text('buy_price', '', ['class' => 'form-control', 'placeholder' => 'Harga'])}}
     </div>
     <div class="form-group">
       {{Form::label('supply', 'Jumlah Suplai')}}
