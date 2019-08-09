@@ -48,26 +48,6 @@ Klik masing-masing tautan di atas dan ikuti instruksi untuk pemasangan yang sesu
 ```
 7. Setelah set-up selesai, jalankan tokemanager di localhost
 
-## Running the tests??
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
 Saat ini, Tokemanager dikhususkan untuk kebutuhan pihak Tokema di ITB, yang bergerak dalam usaha jual-beli barang keperluan mahasiswa.
