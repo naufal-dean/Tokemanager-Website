@@ -81,6 +81,8 @@ class OutcomesController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $outcome = Invoice::find($id);
+        $outcome->delete();
+        return redirect('/outcomes')->with('success', 'Transaksi berhasil dihapus.');
     }
 }

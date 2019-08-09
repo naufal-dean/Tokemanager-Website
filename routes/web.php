@@ -17,6 +17,10 @@ Route::get('/statistik-keuangan', 'PagesController@statistikKeuangan');
 Route::get('/statistik-barang', 'PagesController@statistikBarang');
 // Route::get('/database-barang', 'PagesController@databaseBarang');
 Route::get('/Tokema', 'PagesController@aboutTokema');
+Route::get('/suplai-barang', 'ItemsController@itemsList');
+Route::get('/suplai-barang/{id}', 'ItemsController@redirectToSupply');
+
+Route::put('/suplai-barang/{id}/submit', 'ItemsController@supply');
 
 Route::resource('/finances','FinancesController');
 Route::resource('/incomes','IncomesController');

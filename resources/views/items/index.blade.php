@@ -5,11 +5,10 @@
   <h1 class="mt-5">Barang</h1>
   <p class="p-1 sublink"><a href="{{url('/items/create')}}">&oplus;   Tambah Barang</a></p>
   @if (count($items) >0)
-  <table width="90%", align="center">
+  <table width="90%" align="center" class="table table-striped">
       <tr>
         <th>Kode</th>
         <th>Nama Produk</th>
-        <th>Kategori</th>
         <th>Harga Satuan</th>
         <th>Jumlah Barang</th>
       </tr>
@@ -18,7 +17,6 @@
         <tr>
           <td>{{$item->id}}</td>
           <td><a href="{{url('/items/' . $item->id)}}">{{$item->item_name}}</a></td>
-          <td>{{$item->desc}}</td>
           <td>{{$item->price}}</td>
           <td>{{$item->stock}}</td>
         </tr>
@@ -30,4 +28,3 @@
   @endif
 </main>
 @endsection
-

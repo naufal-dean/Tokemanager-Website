@@ -82,6 +82,8 @@ class InvoicesController extends Controller
      */
     public function destroy($id)
     {
-        //
+      $invoice = Invoice::find($id);
+      $invoice->delete();
+      return redirect('/invoices')->with('success', 'Transaksi berhasil dihapus.');
     }
 }

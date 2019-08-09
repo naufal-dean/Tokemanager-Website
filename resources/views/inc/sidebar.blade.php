@@ -35,7 +35,11 @@
       </ul>
     </li>
 
-    <li class="{{ ((substr((Request::path()), 0, 16) === 'statistik-barang') || (substr((Request::path()), 0, 5) === 'items')) ? 'active' : '' }}">
+    <li class="{{ (
+      (substr((Request::path()), 0, 16) === 'statistik-barang') ||
+      (substr((Request::path()), 0, 5) === 'items')) ||
+      (substr((Request::path()), 0, 13) === 'suplai-barang')
+      ? 'active' : '' }}">
       <a href="#barangSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Barang</a>
       <ul class="collapse list-unstyled" id="barangSubmenu">
         <li>
@@ -43,6 +47,9 @@
         </li>
         <li>
           <a href="{{url('/items')}}" class="{{ (substr((Request::path()), 0, 5) === 'items') ? 'active' : '' }}">Database</a>
+        </li>
+        <li>
+          <a href="{{url('/suplai-barang')}}" class="{{ (substr((Request::path()), 0, 13) === 'suplai-barang') ? 'active' : '' }}">Suplai</a>
         </li>
       </ul>
     </li>
