@@ -160,7 +160,7 @@ class ItemsController extends Controller
       $outcome->item_id = $id;
       $outcome->finance_id = 1;
       $outcome->qty = $request->input('supply');
-      $outcome->transaction = $request->input('supply') * $item->desc = $request->input('buy_price');;
+      $outcome->transaction = $request->input('supply') * $request->input('buy_price');
       $outcome->save();
 
       // Create Finance

@@ -25,7 +25,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 /* Route to handle form */
 // Route::get("addmore","FormsController@addMore");
 Route::get('/penjualan', 'PagesController@penjualan');
-Route::post('/penjualan','FormsController@addRow');
+Route::post('/penjualan/submit','FormsController@addRow');
 
 /* Put request. */
 Route::put('/suplai-barang/{id}/submit', 'ItemsController@supply');
