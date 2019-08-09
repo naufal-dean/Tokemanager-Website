@@ -15,7 +15,7 @@ class CreateIncomesTable extends Migration
     {
         Schema::create('incomes', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('item_name');
+            $table->integer('item_id');
             $table->integer('qty');
             $table->integer('transaction');
             $table->timestamps();
