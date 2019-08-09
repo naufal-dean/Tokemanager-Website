@@ -1,7 +1,8 @@
 ![logo](https://raw.githubusercontent.com/naufal-dean/Tugas-SPARTA-2-VS-10/master/public/images/logo.png)
 # Tokemanager
 
-Tokemanager adalah sebuah software pengelolaan toko berbasis web. Tokemanager dirancang untuk memudahkan pemilik toko dalam menjalankan usahanya. Dengan Tokomanager, tidak perlu lagi menghabiskan waktu untuk menghitung stok secara manual dan bisa meningkatkan keefisienan pembelian barang dengan melihat barang mana saja yang lebih laris sehingga bisa meningkatkan laba yang diperoleh toko.
+Tokemanager adalah sebuah software pengelolaan toko berbasis web. Tokemanager dirancang untuk memudahkan pemilik toko dalam menjalankan usahanya. Dengan Tokomanager, tidak perlu lagi menghabiskan waktu untuk menghitung stok secara manual dan bisa meningkatkan kualitas laba yang diperoleh. Dengan Tokemanager, pengelolaan toko menjadi lebih praktis dan efisien mulai dari penjualan berupa kasir, persediaan barang, statistik keuangan, dan masih banyak lagi. 
+
 
 ## Getting Started
 
