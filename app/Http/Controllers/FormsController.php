@@ -16,7 +16,6 @@ class FormsController extends Controller
     // Handle post request.
     public function addRow(Request $request){
         $rules = [];
-
         foreach($request->input('name') as $key => $value) {
             $rules["name.{$key}"] = 'required';
         }
