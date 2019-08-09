@@ -5,7 +5,7 @@ Tokemanager adalah sebuah software pengelolaan toko berbasis web. Tokemanager di
 
 ## Getting Started
 
-Ikuti instruksi berikut untuk menjalankan, mengunduh, atau menjalankan testing project Tokemanager ini. See deployment for notes on how to deploy the project on a live system.
+Ikuti instruksi berikut untuk menjalankan, mengunduh, atau menjalankan testing project Tokemanager ini.
 
 ### Prasyarat
 
@@ -15,37 +15,39 @@ Sebelum mulai menggunakan Tokemanager, pastikan pada komputer Anda telah terpasa
 2. [node.js](https://nodejs.org/en/), dan
 3. [composer](https://getcomposer.org/download/).
 
-```
 Klik masing-masing tautan di atas dan ikuti instruksi untuk pemasangan yang sesuai dengan sistem operasi di komputer Anda.
-```
 
-### Install Tokemanager
+### Mengunduh dan Set-Up Tokemanager
 
-
-Say what the step will be
+1. Unduh file zip Tokemanager atau clone melalui git menggunakan command berikut. Simpan file ke dalam direktori xampp\htdocs.
 
 ```
-Give the example
+...\xampp\htdocs> git clone https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10.git
 ```
 
-And repeat
+2. Buka terminal/command prompt dan mulai (cd) pada project root directory. Contoh seperti di bawah ini, jika folder project bernama Tugas-SPARTA-2-VS-10.
 
 ```
-until finished
+...\xampp\htdocs>cd Tugas-SPARTA-2-VS-10
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+3. Jalankan composer install, npm install, dan php artisan key:generate sebagai berikut.
 
-### Set Up Tokemanager
+```
+...\xampp\htdocs\Tugas-SPARTA-2-VS-10>composer install
+...\xampp\htdocs\Tugas-SPARTA-2-VS-10>npm install
+...\xampp\htdocs\Tugas-SPARTA-2-VS-10>php artisan key:generate
+```
 
-1. git clone https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10
-2. cd your project root directory
-3. Run composer install
-4. Run npm install
-5. Run php artisan key:generate
-6. Create tokemanager table on local mysql admin panel
-7. Run php artisan migrate
-8. Run php artisan serve
+4. Buka local mysql admin panel melalui browser dengan mengetik "localhost/phpmyadmin/"
+5. Buat tabel database baru bernama "tokemanager"
+6. Dengan terminal/command prompt sebelumnya, lakukan migrate dengan mengetik php artisan migrate.
+
+```
+...\xampp\htdocs\Tugas-SPARTA-2-VS-10>php artisan migrate
+```
+7. Setelah set-up selesai, jalankan tokemanager di localhost
+
 ## Running the tests??
 
 Explain how to run the automated tests for this system
@@ -75,9 +77,6 @@ Add additional notes about how to deploy this on a live system
 * [Laravel](https://laravel.com/) - The web framework used
 * PHP
 * mySQL
-
-* ?? - Dependency Management
-* ?? - Used to generate RSS Feeds
 
 ## Contributing
 
@@ -110,7 +109,7 @@ Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-1
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Project ini merupakan 
 
 ## Acknowledgments
 
