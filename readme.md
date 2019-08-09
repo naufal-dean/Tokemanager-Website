@@ -76,7 +76,8 @@ Add additional notes about how to deploy this on a live system
 
 * [Laravel](https://laravel.com/) - The web framework used
 * PHP
-* mySQL
+* HTML
+
 
 ## Contributing
 
@@ -109,7 +110,7 @@ Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-1
 
 ## License
 
-Project ini merupakan 
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
