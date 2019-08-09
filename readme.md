@@ -70,7 +70,7 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Saat ini, Tokemanager dikhususkan untuk kebutuhan pihak Tokema di ITB, yang bergerak dalam usaha jual-beli barang keperluan mahasiswa.
 
 ## Dibuat dengan
 
@@ -80,27 +80,27 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Pengembangan proyek Tokemanager secara langsung dalam code sementara masih bersifat tertutup.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Versi project yang telah dirilis dapat dilihat [di sini](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/releases). 
 
 ## Authors
 
 * **Alexandra Angeline** - [alexandrangeline](https://github.com/alexandrangeline)
-* **Syarifuddin Fakhri A. H.**- []()
+* **Syarifuddin Fakhri A. H.**
 * **Difa Habiba Rahman** - [difahrahman](https://github.com/difahrahman)
-* **Ignatius David Partogi** - []()
+* **Ignatius David Partogi**
 * **Felicia Gillian Tekad Tuerah** - [gilliantuerah](https://github.com/gilliantuerah)
 * **Naufal Dean Anugrah** - [naufal-dean](https://github.com/naufal-dean)
 * **Daffa Pratama Putra** - [daffa1pratama](https://github.com/daffa1pratama)
 * **Muhamad Hudan Widzamil** - [hudanwidzamil](https://github.com/hudanwidzamil)
-* **Adrian Timotheus Salim** - []()
-* **Hafshy Yazid Albisthami** - []()
+* **Adrian Timotheus Salim**
+* **Hafshy Yazid Albisthami**
 * **Ricky Fernando** - [rickymen](https://github.com/rickymen)
 * **Jones Napoleon A.** - [jonesnapoleon](https://github.com/jonesnapoleon)
-* **Vincent Tanjaya** -
+* **Vincent Tanjaya**
 * **Rehan Adi Satrya** - [rehanadi30](https://github.com/rehanadi30)
 * **Widad Istiqomah** - [widadistt](https://github.com/widadistt)
 * **Hizbulloh Ash-Shidiqy** - [hizbashidiq](https://github.com/hizbashidiq)
@@ -109,11 +109,9 @@ Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-1
 
 ## License
 
-Project ini merupakan 
+Project ini merupakan bagian tugas dari kegiatan Simulasi dan Pelatihan Keorganisasian untuk Anggota HMIF ITB 2018.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Terima kasih pada pihak Tokema dari Kokesma ITB atas kerjasama dalam pembuatan software ini.
 
