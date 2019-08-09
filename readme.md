@@ -76,6 +76,7 @@ Saat ini, Tokemanager dikhususkan untuk kebutuhan pihak Tokema di ITB, yang berg
 
 * [Laravel](https://laravel.com/) - The web framework used
 * PHP
+* HTML
 * mySQL
 
 ## Contributing
@@ -84,7 +85,7 @@ Pengembangan proyek Tokemanager secara langsung dalam code sementara masih bersi
 
 ## Versioning
 
-Versi project yang telah dirilis dapat dilihat [di sini](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/releases). 
+Versi project yang telah dirilis dapat dilihat [di sini](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/tags). 
 
 ## Authors
 
@@ -109,7 +110,7 @@ Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-1
 
 ## License
 
-Project ini merupakan bagian tugas dari kegiatan Simulasi dan Pelatihan Keorganisasian untuk Anggota HMIF ITB 2018.
+Untuk detail lebih lanjut, dapat dilihat di [License.md](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/blob/master/license.md).
 
 ## Acknowledgments
 
