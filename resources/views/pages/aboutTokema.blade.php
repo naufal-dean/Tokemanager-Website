@@ -11,7 +11,7 @@
         <small>Catatan: Perlu diimplementasikan fitur autofill, sehingga tidak perlu mengisi harga secara manual untuk mencegah kesalahan.</small>
       </div>
 
-    <h2>2. Keuangan</h3>
+    <h2 class="mt-3">2. Keuangan</h3>
       <div class="ml-4">
         <h3 style="font-size:20px"> a. Statistik</h3>
         <div class="ml-3">
