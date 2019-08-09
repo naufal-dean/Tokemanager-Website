@@ -19,30 +19,16 @@ Laman ini digunakan untuk mendaftarkan diri sebagai pengguna perangkat lunak ini
 * PHP
 * mySQL
 
-## Authors
+## Set Up Tokemanager
 
-* **Alexandra Angeline** - [alexandrangeline](https://github.com/alexandrangeline)
-* **Syarifuddin Fakhri A. H.**- []()
-* **Difa Habiba Rahman** - [difahrahman](https://github.com/difahrahman)
-* **Ignatius David Partogi** - []()
-* **Felicia Gillian Tekad Tuerah** - [gilliantuerah](https://github.com/gilliantuerah)
-* **Naufal Dean Anugrah** - [naufal-dean](https://github.com/naufal-dean)
-* **Daffa Pratama Putra** - [daffa1pratama](https://github.com/daffa1pratama)
-* **Muhamad Hudan Widzamil** - [hudanwidzamil](https://github.com/hudanwidzamil)
-* **Adrian Timotheus Salim** - []()
-* **Hafshy Yazid Albisthami** - []()
-* **Ricky Fernando** - [rickymen](https://github.com/rickymen)
-* **Jones Napoleon A.** - [jonesnapoleon](https://github.com/jonesnapoleon)
-* **Vincent Tanjaya** -
-* **Rehan Adi Satrya** - [rehanadi30](https://github.com/rehanadi30)
-* **Widad Istiqomah** - [widadistt](https://github.com/widadistt)
-* **Hizbulloh Ash-Shidiqy** - [hizbashidiq](https://github.com/hizbashidiq)
-
-Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) yang berpartisipasi dalam proyek ini.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+1. git clone https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10
+2. cd your project root directory
+3. Run composer install
+4. Run npm install
+5. Run php artisan key:generate
+6. Create tokemanager table on local mysql admin panel
+7. Run php artisan migrate
+8. Run php artisan serve
 
 ### Prasyarat
 
@@ -94,15 +80,6 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Dibuat dengan
-
-* [Laravel](https://laravel.com/) - The web framework used
-* PHP
-* mySQL
-
-* ?? - Dependency Management
-* ?? - Used to generate RSS Feeds
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
@@ -120,4 +97,25 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
+## Authors
+
+* **Alexandra Angeline** - [alexandrangeline](https://github.com/alexandrangeline)
+* **Syarifuddin Fakhri A. H.**- []()
+* **Difa Habiba Rahman** - [difahrahman](https://github.com/difahrahman)
+* **Ignatius David Partogi** - []()
+* **Felicia Gillian Tekad Tuerah** - [gilliantuerah](https://github.com/gilliantuerah)
+* **Naufal Dean Anugrah** - [naufal-dean](https://github.com/naufal-dean)
+* **Daffa Pratama Putra** - [daffa1pratama](https://github.com/daffa1pratama)
+* **Muhamad Hudan Widzamil** - [hudanwidzamil](https://github.com/hudanwidzamil)
+* **Adrian Timotheus Salim** - []()
+* **Hafshy Yazid Albisthami** - []()
+* **Ricky Fernando** - [rickymen](https://github.com/rickymen)
+* **Jones Napoleon A.** - [jonesnapoleon](https://github.com/jonesnapoleon)
+* **Vincent Tanjaya** -
+* **Rehan Adi Satrya** - [rehanadi30](https://github.com/rehanadi30)
+* **Widad Istiqomah** - [widadistt](https://github.com/widadistt)
+* **Hizbulloh Ash-Shidiqy** - [hizbashidiq](https://github.com/hizbashidiq)
+
+Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) yang berpartisipasi dalam proyek ini.
 
