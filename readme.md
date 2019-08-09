@@ -46,7 +46,7 @@ Klik masing-masing tautan di atas dan ikuti instruksi untuk pemasangan yang sesu
 ```
 ...\xampp\htdocs\Tugas-SPARTA-2-VS-10>php artisan migrate
 ```
-7. Setelah set-up selesai, jalankan tokemanager di localhost/
+7. Setelah set-up selesai, jalankan tokemanager di localhost/(namaFolder)/public/penjualan
 
 ```
 Contoh: localhost/Tugas-SPARTA-2-VS-10/public/penjualan
