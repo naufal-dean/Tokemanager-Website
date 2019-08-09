@@ -40,9 +40,16 @@ Laman ini digunakan untuk mendaftarkan diri sebagai pengguna perangkat lunak ini
 
 Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) yang berpartisipasi dalam proyek ini.
 
-## Getting Started
+## Set Up Tokemanager
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+1. git clone https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10
+2. cd your project root directory
+3. Run composer install
+4. Run npm install
+5. Run php artisan key:generate
+6. Create tokemanager table on local mysql admin panel
+7. Run php artisan migrate
+8. Run php artisan serve
 
 ### Prasyarat
 
@@ -93,15 +100,6 @@ Give an example
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
-
-## Dibuat dengan
-
-* [Laravel](https://laravel.com/) - The web framework used
-* PHP
-* mySQL
-
-* ?? - Dependency Management
-* ?? - Used to generate RSS Feeds
 
 ## Contributing
 
