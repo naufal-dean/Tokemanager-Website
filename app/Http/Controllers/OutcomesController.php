@@ -47,7 +47,8 @@ class OutcomesController extends Controller
      */
     public function show($id)
     {
-        //
+        $outcome = Outcome::find($id);
+        return view('outcomes.show')->with('outcome', $outcome);
     }
 
     /**

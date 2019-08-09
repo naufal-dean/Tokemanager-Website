@@ -9,7 +9,9 @@
   @if (count($outcomes) > 0)
     @foreach ($outcomes as $outcome)
       <div class="card card-body bg-light">
-        <h3><a href="{{url('/outcomes/' . $outcome->id)}}">{{$outcome->transaction}}</a></h3>
+        <h3><a href="{{url('/outcomes/' . $outcome->id)}}">Transaksi {{$outcome->id}}</a></h3>
+        <p>Total Transaksi: Rp{{$outcome->transaction}}</p>
+        <small>Waktu Transaksi: {{$outcome->created_at}}</small>
       </div>
     @endforeach
     {{$outcomes->links()}}
