@@ -70,7 +70,7 @@ class IncomesController extends Controller
         }
         $invoice->save();
 
-        // Create Income
+        // Create Income and Update Item Stock
         foreach ($transaction as $key => $value) {
             $income = new Income;
             $income->item_id = $item_id[$key];
@@ -79,6 +79,10 @@ class IncomesController extends Controller
             $income->qty = $qty[$key];
             $income->transaction = $value;
             $income->save();
+
+            // Update Item Stock
+            $income->item->stock = ($income->item->stock) - ($income->qty);
+            $income->item->save();
         }
 
         // Create Finance
