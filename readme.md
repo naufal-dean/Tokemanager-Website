@@ -3,6 +3,42 @@
 
 Tokemanager adalah sebuah software pengelolaan toko berbasis web. Tokemanager dirancang untuk memudahkan pemilik toko dalam menjalankan usahanya. Dengan Tokomanager, tidak perlu lagi menghabiskan waktu untuk menghitung stok secara manual dan bisa meningkatkan kualitas laba yang diperoleh. Dengan Tokemanager, pengelolaan toko menjadi lebih praktis dan efisien mulai dari penjualan berupa kasir, persediaan barang, statistik keuangan, dan masih banyak lagi. 
 
+## Fitur
+### Penjualan
+Laman ini digunakan untuk melakukan transaksi penjualan barang.
+### Data stok barang
+Laman ini digunakan untuk mengisi data stok barang.
+### Statistik 
+Laman ini digunakan untuk melihat statistik keuangan dan stok barang.
+### Login dan register
+Laman ini digunakan untuk mendaftarkan diri sebagai pengguna perangkat lunak ini dan untuk masuk ke dalam program utama.
+
+## Dibuat dengan
+
+* [Laravel](https://laravel.com/) - web framework
+* PHP
+* mySQL
+
+## Authors
+
+* **Alexandra Angeline** - [alexandrangeline](https://github.com/alexandrangeline)
+* **Syarifuddin Fakhri A. H.**- []()
+* **Difa Habiba Rahman** - [difahrahman](https://github.com/difahrahman)
+* **Ignatius David Partogi** - []()
+* **Felicia Gillian Tekad Tuerah** - [gilliantuerah](https://github.com/gilliantuerah)
+* **Naufal Dean Anugrah** - [naufal-dean](https://github.com/naufal-dean)
+* **Daffa Pratama Putra** - [daffa1pratama](https://github.com/daffa1pratama)
+* **Muhamad Hudan Widzamil** - [hudanwidzamil](https://github.com/hudanwidzamil)
+* **Adrian Timotheus Salim** - []()
+* **Hafshy Yazid Albisthami** - []()
+* **Ricky Fernando** - [rickymen](https://github.com/rickymen)
+* **Jones Napoleon A.** - [jonesnapoleon](https://github.com/jonesnapoleon)
+* **Vincent Tanjaya** -
+* **Rehan Adi Satrya** - [rehanadi30](https://github.com/rehanadi30)
+* **Widad Istiqomah** - [widadistt](https://github.com/widadistt)
+* **Hizbulloh Ash-Shidiqy** - [hizbashidiq](https://github.com/hizbashidiq)
+
+Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) yang berpartisipasi dalam proyek ini.
 
 ## Getting Started
 
@@ -58,9 +94,12 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
+## Dibuat dengan
 
 * [Laravel](https://laravel.com/) - The web framework used
+* PHP
+* mySQL
+
 * ?? - Dependency Management
 * ?? - Used to generate RSS Feeds
 
@@ -74,24 +113,24 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Alexandra Angeline** - *Initial work* - [alexandrangeline](https://github.com/alexandrangeline)
-* **Syarifuddin Fakhri A. H.** - *Initial work* - []()
-* **Difa Habiba Rahman** - *Initial work* - [difahrahman](https://github.com/difahrahman)
-* **Ignatius David Partogi** - *Initial work* - []()
-* **Felicia Gillian Tekad Tuerah** - *Initial work* - [gilliantuerah](https://github.com/gilliantuerah)
-* **Naufal Dean Anugrah** - *Initial work* - [naufal-dean](https://github.com/naufal-dean)
-* **Daffa Pratama Putra** - *Initial work* - [daffa1pratama](https://github.com/daffa1pratama)
-* **Muhamad Hudan Widzamil** - *Initial work* - [hudanwidzamil](https://github.com/hudanwidzamil)
-* **Adrian Timotheus Salim** -  *Initial work* - []()
-* **Hafshy Yazid Albisthami** -  *Initial work* - []()
-* **Ricky Fernando** -  *Initial work* - [rickymen](https://github.com/rickymen)
-* **Jones Napoleon A.** -  *Initial work* - [jonesnapoleon](https://github.com/jonesnapoleon)
+* **Alexandra Angeline** - [alexandrangeline](https://github.com/alexandrangeline)
+* **Syarifuddin Fakhri A. H.**- []()
+* **Difa Habiba Rahman** - [difahrahman](https://github.com/difahrahman)
+* **Ignatius David Partogi** - []()
+* **Felicia Gillian Tekad Tuerah** - [gilliantuerah](https://github.com/gilliantuerah)
+* **Naufal Dean Anugrah** - [naufal-dean](https://github.com/naufal-dean)
+* **Daffa Pratama Putra** - [daffa1pratama](https://github.com/daffa1pratama)
+* **Muhamad Hudan Widzamil** - [hudanwidzamil](https://github.com/hudanwidzamil)
+* **Adrian Timotheus Salim** - []()
+* **Hafshy Yazid Albisthami** - []()
+* **Ricky Fernando** - [rickymen](https://github.com/rickymen)
+* **Jones Napoleon A.** - [jonesnapoleon](https://github.com/jonesnapoleon)
 * **Vincent Tanjaya** -
-* **Rehan Adi Satrya** -  *Initial work* - [rehanadi30](https://github.com/rehanadi30)
-* **Widad Istiqomah** -  *Initial work* - [widadistt](https://github.com/widadistt)
-* **Hizbulloh Ash-Shidiqy** -  *Initial work* - [hizbashidiq](https://github.com/hizbashidiq)
+* **Rehan Adi Satrya** - [rehanadi30](https://github.com/rehanadi30)
+* **Widad Istiqomah** - [widadistt](https://github.com/widadistt)
+* **Hizbulloh Ash-Shidiqy** - [hizbashidiq](https://github.com/hizbashidiq)
 
-See also the list of [contributors](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) who participated in this project.
+Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) yang berpartisipasi dalam proyek ini.
 
 ## License
 
