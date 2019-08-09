@@ -24,3 +24,8 @@ Route::resource('/outcomes','OutcomesController');
 Route::resource('/items','ItemsController');
 Route::resource('/inflows','InflowsController');
 Route::resource('/outflows','OutflowsController');
+Route::resource('/invoices','InvoicesController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

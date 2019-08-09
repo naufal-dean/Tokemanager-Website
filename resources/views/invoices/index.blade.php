@@ -5,17 +5,18 @@
   <h1 class="mt-5">List Pendapatan</h1>
 
   @include('inc.dropdownkeuangan')
-
-  @if (count($incomes) > 0)
-    @foreach ($incomes as $income)
+  @if (count($invoices) > 0)
+    @foreach ($invoices as $invoice)
       <div class="card card-body bg-light">
-        <h3><a href="{{url('/incomes/' . $income->id)}}">{{$income->transaction}}</a></h3>
+        <h3><a href="{{url('/invoices/' . $invoice->id)}}">Transaksi {{$invoice->id}}</a></h3>
+        <p>Total Transaksi: Rp{{$invoice->total_transaction}}</p>
+        <small>Waktu Transaksi: {{$invoice->created_at}}</small>
       </div>
     @endforeach
-    {{$incomes->links()}}
+    {{$invoices->links()}}
   @else
     <div class="card card-body bg-light">
-      <p>No incomes found</p>
+      <p>No invoices found</p>
     </div>
   @endif
 </main>

@@ -9,7 +9,7 @@
     </li>
 
     <li class="{{ (
-      (substr((Request::path()), 0, 7) === 'incomes') ||
+      (substr((Request::path()), 0, 8) === 'invoices') ||
       (substr((Request::path()), 0, 8) === 'outcomes') ||
       (substr((Request::path()), 0, 8) === 'finances') ||
       (substr((Request::path()), 0, 18) === 'statistik-keuangan'))
@@ -23,9 +23,9 @@
           </a>
         </li>
         <li>
-          <a href="{{url('/incomes')}}"
+          <a href="{{url('/invoices')}}"
             class="{{ (
-              (substr((Request::path()), 0, 7) === 'incomes') ||
+              (substr((Request::path()), 0, 8) === 'invoices') ||
               (substr((Request::path()), 0, 8) === 'outcomes') ||
               (substr((Request::path()), 0, 8) === 'finances'))
               ? 'active' : '' }}">

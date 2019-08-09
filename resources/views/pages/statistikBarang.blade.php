@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Statistik Barang'])
+@extends('layouts.template', ['title' => 'Statistik Barang'])
 
 @section('content')
 <main role="main" class="container">
