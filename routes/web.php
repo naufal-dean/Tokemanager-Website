@@ -19,6 +19,7 @@ Route::get('/statistik-barang', 'PagesController@statistikBarang');
 Route::get('/Tokema', 'PagesController@aboutTokema');
 Route::get('/suplai-barang', 'ItemsController@itemsList');
 Route::get('/suplai-barang/{id}', 'ItemsController@redirectToSupply');
+Route::get('/finances/history', 'FinancesController@indexHistory');
 
 Route::put('/suplai-barang/{id}/submit', 'ItemsController@supply');
 
