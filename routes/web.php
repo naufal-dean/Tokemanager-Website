@@ -23,3 +23,7 @@ Route::resource('/outcomes','OutcomesController');
 Route::resource('/items','ItemsController');
 Route::resource('/inflows','InflowsController');
 Route::resource('/outflows','OutflowsController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

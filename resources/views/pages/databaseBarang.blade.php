@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'Database Barang'])
+@extends('layouts.template', ['title' => 'Database Barang'])
 
 @section('content')
 <div>
