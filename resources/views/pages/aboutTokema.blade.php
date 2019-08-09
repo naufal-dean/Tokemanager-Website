@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => 'TOKEMA'])
+@extends('layouts.template', ['title' => 'TOKEMA'])
 
 @section('content')
 <main role="main" class="container">
