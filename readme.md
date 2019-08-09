@@ -81,14 +81,14 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * **Naufal Dean Anugrah** - *Initial work* - [naufal-dean](https://github.com/naufal-dean)
 * **Daffa Pratama Putra** - *Initial work* - [daffa1pratama](https://github.com/daffa1pratama)
 * **Muhamad Hudan Widzamil** - *Initial work* - [hudanwidzamil](https://github.com/hudanwidzamil)
-* **Adrian Timotheus Salim** -
-* **Hafshy Yazid Albisthami** -
-* **Ricky Fernando** - [rickymen](https://github.com/rickymen)
-* **Jones Napoleon A.** -
+* **Adrian Timotheus Salim** -  *Initial work* - []()
+* **Hafshy Yazid Albisthami** -  *Initial work* - []()
+* **Ricky Fernando** -  *Initial work* - [rickymen](https://github.com/rickymen)
+* **Jones Napoleon A.** -  *Initial work* - [jonesnapoleon](https://github.com/jonesnapoleon)
 * **Vincent Tanjaya** -
-* **Rehan Adi Satrya** - [rehanadi30](https://github.com/rehanadi30)
-* **Widad Istiqomah** -
-* **Hizbulloh Ash-Shidiqy** -
+* **Rehan Adi Satrya** -  *Initial work* - [rehanadi30](https://github.com/rehanadi30)
+* **Widad Istiqomah** -  *Initial work* - [widadistt](https://github.com/widadistt)
+* **Hizbulloh Ash-Shidiqy** -  *Initial work* - [hizbashidiq](https://github.com/hizbashidiq)
 
 See also the list of [contributors](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) who participated in this project.
 

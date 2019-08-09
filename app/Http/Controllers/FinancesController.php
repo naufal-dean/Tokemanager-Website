@@ -20,6 +20,12 @@ class FinancesController extends Controller
         return view('finances.index')->with('finance', $finance);
     }
 
+    public function indexHistory()
+    {
+        $finances = Finance::orderBy('created_at', 'desc')->paginate(5);
+        return view('finances.indexhistory')->with('finances', $finances);
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -36,23 +42,20 @@ class FinancesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request, $operator)
+    public function store(Request $request)
     {
         $this->validate($request, [
             'total' => 'required'
         ]);
 
-        // Create Post
+        // Create Finance
         $finance = new Finance;
         $finance->total = $request->input('total');
         $finance->save();
-        if($operator === '+'){
-            return redirect('/penjualan')->with('success', 'data keuangan telah diupdate.');
-        }else{
-            return redirect('/outcomes/create')->with('success', 'data keuangan telah diupdate.');
-        }
 
+        return redirect('/finances')->with('success', 'Saldo berhasil diupdate.');
     }
+
     /**
      * Display the specified resource.
      *
@@ -61,7 +64,8 @@ class FinancesController extends Controller
      */
     public function show($id)
     {
-        //
+      $finance = Finance::find($id);
+      return view('finances.show')->with('finance', $finance);
     }
     /**
      * Show the form for editing the specified resource.
@@ -106,6 +110,6 @@ class FinancesController extends Controller
     {
         $finance = Finance::find($id);
         $finance->delete();
-        return redirect('/finance')->with('success', 'Finance berhasil dihapus.');
+        return redirect('/finances/history')->with('success', 'Saldo berhasil dihapus.');
     }
 }

@@ -17,6 +17,7 @@ class CreateIncomesTable extends Migration
             $table->bigIncrements('id');
             $table->integer('item_id');
             $table->integer('invoice_id');
+            $table->integer('finance_id');
             $table->integer('qty');
             $table->integer('transaction');
             $table->timestamps();
