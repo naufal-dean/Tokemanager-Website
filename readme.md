@@ -19,27 +19,6 @@ Laman ini digunakan untuk mendaftarkan diri sebagai pengguna perangkat lunak ini
 * PHP
 * mySQL
 
-## Authors
-
-* **Alexandra Angeline** - [alexandrangeline](https://github.com/alexandrangeline)
-* **Syarifuddin Fakhri A. H.**- []()
-* **Difa Habiba Rahman** - [difahrahman](https://github.com/difahrahman)
-* **Ignatius David Partogi** - []()
-* **Felicia Gillian Tekad Tuerah** - [gilliantuerah](https://github.com/gilliantuerah)
-* **Naufal Dean Anugrah** - [naufal-dean](https://github.com/naufal-dean)
-* **Daffa Pratama Putra** - [daffa1pratama](https://github.com/daffa1pratama)
-* **Muhamad Hudan Widzamil** - [hudanwidzamil](https://github.com/hudanwidzamil)
-* **Adrian Timotheus Salim** - []()
-* **Hafshy Yazid Albisthami** - []()
-* **Ricky Fernando** - [rickymen](https://github.com/rickymen)
-* **Jones Napoleon A.** - [jonesnapoleon](https://github.com/jonesnapoleon)
-* **Vincent Tanjaya** -
-* **Rehan Adi Satrya** - [rehanadi30](https://github.com/rehanadi30)
-* **Widad Istiqomah** - [widadistt](https://github.com/widadistt)
-* **Hizbulloh Ash-Shidiqy** - [hizbashidiq](https://github.com/hizbashidiq)
-
-Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) yang berpartisipasi dalam proyek ini.
-
 ## Set Up Tokemanager
 
 1. git clone https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10
@@ -118,4 +97,25 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
+## Authors
+
+* **Alexandra Angeline** - [alexandrangeline](https://github.com/alexandrangeline)
+* **Syarifuddin Fakhri A. H.**- []()
+* **Difa Habiba Rahman** - [difahrahman](https://github.com/difahrahman)
+* **Ignatius David Partogi** - []()
+* **Felicia Gillian Tekad Tuerah** - [gilliantuerah](https://github.com/gilliantuerah)
+* **Naufal Dean Anugrah** - [naufal-dean](https://github.com/naufal-dean)
+* **Daffa Pratama Putra** - [daffa1pratama](https://github.com/daffa1pratama)
+* **Muhamad Hudan Widzamil** - [hudanwidzamil](https://github.com/hudanwidzamil)
+* **Adrian Timotheus Salim** - []()
+* **Hafshy Yazid Albisthami** - []()
+* **Ricky Fernando** - [rickymen](https://github.com/rickymen)
+* **Jones Napoleon A.** - [jonesnapoleon](https://github.com/jonesnapoleon)
+* **Vincent Tanjaya** -
+* **Rehan Adi Satrya** - [rehanadi30](https://github.com/rehanadi30)
+* **Widad Istiqomah** - [widadistt](https://github.com/widadistt)
+* **Hizbulloh Ash-Shidiqy** - [hizbashidiq](https://github.com/hizbashidiq)
+
+Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/contributors) yang berpartisipasi dalam proyek ini.
 
