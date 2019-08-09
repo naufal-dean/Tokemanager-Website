@@ -21,4 +21,7 @@ class PagesController extends Controller
     public function databaseBarang(){
         return view('pages.databaseBarang');
     }
+    public function aboutTokema(){
+        return view('pages.aboutTokema');
+    }
 }
