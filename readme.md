@@ -96,7 +96,7 @@ Lihat juga list [kontributor](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-1
 
 ## License
 
-Untuk detail lebih lanjut, dapat dilihat di [License.md](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/blob/master/license.md).
+Untuk detail lebih lanjut, dapat dilihat di [License.md](license.md).
 
 ## Acknowledgments
 
