@@ -19,6 +19,7 @@ Klik masing-masing tautan di atas dan ikuti instruksi untuk pemasangan yang sesu
 
 ### Mengunduh dan Set-Up Tokemanager
 
+Sebelumnya, pastikan bahwa pada xampp control panel Anda, module Apache dan MySQL sudah berjalan (start).
 1. Unduh file zip Tokemanager atau clone melalui git menggunakan command berikut. Simpan file ke dalam direktori xampp\htdocs.
 
 ```
@@ -46,13 +47,16 @@ Klik masing-masing tautan di atas dan ikuti instruksi untuk pemasangan yang sesu
 ```
 ...\xampp\htdocs\Tugas-SPARTA-2-VS-10>php artisan migrate
 ```
-7. Setelah set-up selesai, jalankan tokemanager di localhost/(namaFolder)/public/penjualan
+7. Setelah set-up selesai, jalankan tokemanager di "localhost/(namaFolder)/public/penjualan" melalui browser.
 
 ```
 Contoh: localhost/Tugas-SPARTA-2-VS-10/public/penjualan
 ```
 
-Fitur dapat diuji terlebih dahulu secara manual dengan menginput satu data barang dari tampilan Tokemanager.
+## Pengujian Tokemanager
+Tidak ada pengujian otomatis untuk software ini. Fitur-fitur Tokemanager dapat diuji terlebih dahulu secara manual melalui tampilan Tokemanager dalam web. Pengujian dapat dilakukan dengan keadaan database dalam "localhost/phpmyadmin/" kosong.
+
+Mula-mula, isi database menggunakan fitur tambah barang pada tab database barang dalam software. Setelah barang dapat ditambah, fitur lainnya dapat digunakan dengan database tersebut. Setelah pengujian, Anda dapat menggunakan database yang lebih besar untuk toko.
 
 ## Deployment
 
@@ -67,7 +71,7 @@ Saat ini, Tokemanager dikhususkan untuk kebutuhan pihak Tokema di ITB, yang berg
 
 ## Contributing
 
-Pengembangan proyek Tokemanager secara langsung dalam code sementara masih bersifat tertutup.
+Pengembangan proyek Tokemanager secara langsung dalam code sementara masih bersifat tertutup. Saran dan kritik pengembangan dapat disampaikan melalui kontributor pada [project](https://github.com/naufal-dean/Tugas-SPARTA-2-VS-10/).
 
 ## Versioning
 
